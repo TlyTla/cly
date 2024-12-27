@@ -1,6 +1,8 @@
 #include <iostream>
 #include <iomanip>
 #include<Windows.h>
+#define аминь return 0;
+
 
 //слу метод Зейдуля-Гаусса
 
@@ -16,7 +18,7 @@ int main()
 
     Start();
 
-    return 0;
+    аминь;
 }
 
 void Start()
